@@ -1,0 +1,127 @@
+
+/* navbar box-shadow */
+@media (min-width:992px) { 
+    nav{
+        box-shadow: none;
+    }
+}
+
+/* navbar box-shadow ends */
+/* menu bar right */
+@media (min-width:320px) and (max-width:991px) {
+      #NavBar{
+        text-align: right;
+      }
+}
+
+
+@media (max-width:991px){
+  .hero .hero-cnt h4 {
+    font-size: 20px;
+    padding: 37px 0 8px;
+    
+}
+
+.hero-cnt h4 span {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.hero .hero-cnt h1 {
+  font-size: 35px;
+  margin: 7px 0 15px
+}
+
+
+.hero .hero-cnt p {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.button {
+ 
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 14px 35px; 
+ 
+}
+
+.button.outlineBtn{
+     border-radius: 10px;
+     padding: 14px 20px;
+}
+.button span {
+   margin-left: 4px;
+   font-size: 12px;
+}
+
+.hero-cnt a {
+  margin-right: 4px; 
+  font-size: 10px;
+}
+
+
+.follow {
+  margin-top: 20px;
+}
+
+.follow .text {
+  width: 40%;
+}
+
+.follow .social-icon {
+  width: 50%;
+}
+
+.follow .social-icon a {
+
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  margin-left: 3px;
+  line-height: 28px;
+}
+.follow .social-icon{
+  margin-top: 10px ;
+}
+}
+/* menu bar right ends */
+
+
+/* about section starts */
+@media (max-width:991px){
+.about {
+  margin-top: 96px;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.about-img img{
+  transform: scaleX(-1);
+}
+
+.about .about-cnt h1 {
+  margin-top: 33px;
+  font-size: 24px;
+}
+
+.about .about-cnt p {
+  padding: 27px 0 31px;
+  font-size: 15px;
+
+}
+
+.about .about-cnt .button.outlineBtn {
+  padding: 11px 18px;
+  border-radius: 15px;
+ 
+}
+
+
+}
+
+/* about section ends */
